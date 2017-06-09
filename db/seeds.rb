@@ -24,3 +24,5 @@ employee_id = Employee.all.pluck(:id)
                   state: Faker::Address.state
                   zip: Faker::Address.zip_code
                   employee_id Faker::Address.sample)
+
+end
